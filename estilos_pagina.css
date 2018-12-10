@@ -25,6 +25,8 @@ header {
     text-align: center;
 }
 
+/* ---------------------------------- */
+
 #menu_navegacion {
 	float: left;
 	width: 300px;
@@ -46,26 +48,30 @@ header {
     appearance: button;
     background-color: #f2fcfb;
     text-decoration: none;
+	text-align: center;
     color: #000;
     font-size: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.click-me1 {
-    padding-left: 28px;
-    padding-right: 28px;
-}
-
-.click-me2 {
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .click-me1:hover, .click-me2:hover {
     background-color: #060a3f;
     color: #ffffff;
 }
+
+#menu_navegacion ul {
+	list-style-type: none;
+}
+
+#menu_navegacion ul li {
+	display: inline;
+
+}
+
+/* ---------------------------------- */
 
 #contacto {
     float: right;
@@ -100,6 +106,8 @@ header {
     background-color: #060a3f;
     color: #ffffff;
 }
+
+/* ---------------------------------- */
 
 /* Termina el header */
 /* Empieza la seccion de contenido */
@@ -158,6 +166,8 @@ header {
     font-family: 'PT Sans Narrow', sans-serif, "Arial";
 }
 
+/* ---------------------------------- */
+
 /* Divider */
 
 hr {
@@ -178,6 +188,8 @@ hr:after {
 	color: #8c8b8b;
 	font-size: 16px;
 }
+
+/* ---------------------------------- */
 
 /* Termina el divider */
 
@@ -261,6 +273,8 @@ blockquote p {
     font-size: 14px;
 }
 
+/* ---------------------------------- */
+
 /* Termina el contenido */
 /* Empieza la seccion de footer */
 
@@ -304,6 +318,8 @@ footer {
     font-size: 18px;
     margin-left: 10px;
 }
+
+/* ---------------------------------- */
 
 #logos_redes {
 	float: right;
