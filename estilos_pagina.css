@@ -32,12 +32,13 @@ header {
 	width: 300px;
 	height: 70px;
 	background-color: #f2fcfb;
-    display: flex;
+    display: inline;
     align-items: center;
     text-align: center;
     justify-content: center;
     font-family: "Aileron Thin", "Arial";
     margin-left: 200px;
+	margin-right: 200px;
 }
 
 .click-me1, .click-me2 {
@@ -55,6 +56,7 @@ header {
     padding-bottom: 17px;
 	padding-right: 15px;
 	padding-left: 15px;
+	margin: 0 auto;
 }
 
 .click-me1:hover, .click-me2:hover {
@@ -64,6 +66,7 @@ header {
 
 #menu_navegacion ul {
 	list-style-type: none;
+	align-items: center;
 }
 
 #menu_navegacion ul li {
