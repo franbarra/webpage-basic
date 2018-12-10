@@ -139,10 +139,7 @@ header {
     align-items: center;
     justify-content: center;
     z-index: 99;
-}
-
-#primera_hab:hover, #segunda_hab:hover, #tercera_hab:hover {
-    -webkit-box-shadow: 0 8px 6px -4px black;
+	-webkit-box-shadow: 0 8px 6px -4px black;
     -moz-box-shadow: 0 8px 6px -4px black;
     box-shadow: 0 8px 6px -4px black;
 }
@@ -150,7 +147,7 @@ header {
 #primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
     text-align: center;
     font-size: 32px;
-    font-family: "Bebas Neue Book", "Arial";
+    font-family: 'Unlock', cursive, "Arial";
 }
 
 #primera_hab p, #segunda_hab p, #tercera_hab p {
@@ -158,7 +155,7 @@ header {
     justify-content: center;
     padding: 10px;
     font-size: 20px;
-    font-family: "Aileron Light", "Arial";
+    font-family: 'PT Sans Narrow', sans-serif, "Arial";
 }
 
 /* Divider */
