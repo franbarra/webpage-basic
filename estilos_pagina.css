@@ -13,19 +13,6 @@ header {
 	background-color: #f2fcfb;
 }
 
-/* Saque la cabecera porque me desplazaba
-/* el icono de contactos fuera del header */
-
-/* #cabecera_interna {
-	width: 768px;
-	height: 70px;
-	margin-left: 128px;
-	background-color: #a49d1f;
-    justify-content: center;
-    display: inline;
-    align-content: center;
-} */
-
 #marca_personal {
 	float: left;
 	width: 128px;
