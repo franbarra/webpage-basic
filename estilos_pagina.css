@@ -5,8 +5,9 @@ body, html {
 body {
 	width: 1024px;
 	margin: 0 auto;
-	background-image: url(./file.geometria.png);
-	/* https://d.wpimg.pl/2065998232-242085103/geometria.png */
+	background-image: url(./fondogeometria.png);
+	/* source:
+		https://wallpapersden.com/abstract-wallpapers/mesh-triangles-surface-320.html?resolution=1080x1920 */
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -216,6 +217,7 @@ hr:after {
     display: block;
     align-items: center;
     justify-content: center;
+	margin: 0 auto;
 }
 
 #relato1, #relato2, #relato3,
@@ -227,7 +229,10 @@ hr:after {
 	text-align: center;
     margin: 10px;
     align-content: center;
-    border: 2px solid #ddb358;
+    border-width: 2px;
+	border-style: solid;
+	border-image:
+		-moz-linear-gradient(to bottom right, #db4e30, #bd25b7) 1;
 }
 
 #relato1, #relato2, #relato3,
@@ -271,13 +276,14 @@ blockquote:after {
   content: "\2013 \2003" attr(cite);
   display: block;
   color: #e74c3c;
-  font-size: 0.875em;
+  font-size: 0.675em;
   text-align: right;
 }
 
 blockquote p {
     font-family: 'Cantarell', sans-serif;
-    font-size: 14px;
+	font-size: 14px;
+	font-size-adjust: auto;
 }
 
 /* ---------------------------------- */
