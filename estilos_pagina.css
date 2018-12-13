@@ -309,23 +309,20 @@ footer {
 	height: 70px;
 	background-color: #f2fcfb;
     display: inline-block;
-    align-content: center;
 }
 
 #licencia i {
-    width: auto;
-    height: 70px;
-    display: inline-block;
-    align-content: center;
-    background-color: #f2fcfb;
-    font-size: 24px;
-	color: black;
-    padding-left: 10px;
-    padding-right: 10px;
+	width: 230px;
+	background-color: #f2fcfb;
+	font-size: 24px;
+	float: right;
+	margin-right: 35px;
+	margin-top: 20px;
+	padding-left: 5px;
 }
 
 .nav-text {
-    vertical-align: baseline;
+    vertical-align: middle;
     font-size: 16px;
     margin-left: 10px;
 }
