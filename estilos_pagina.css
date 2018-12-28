@@ -1,49 +1,55 @@
-body, html {
-	margin: 0;
-}
 
 body {
-	width: 1024px;
 	margin: 0 auto;
-	background-image: url(./fondogeometria.png);
+	/* background-image: url(./fondogeometria.png);
 	/* source:
-		https://wallpapersden.com/abstract-wallpapers/mesh-triangles-surface-320.html?resolution=1080x1920 */
+		https://wallpapersden.com/abstract-wallpapers/mesh-triangles-surface-320.html?resolution=1080x1920
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
+	background-color: #000000;
 }
 
 header {
-    width: 1024px;
-	height: 70px;
 	background-color: #f2fcfb;
+	margin: 0 auto;
+	width: 100%;
+	height: 4em;
 }
 
 #marca_personal {
 	float: left;
-	width: 128px;
-	height: 70px;
+	height: inherit;
+	width: 15%;
 	background-color: #f2fcfb;
-    align-items: center;
-    justify-content: center;
-    font-size: 26px;
     font-family: "Aileron Thin", "Arial";
-    text-align: center;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 /* ---------------------------------- */
 
 #menu_navegacion {
 	float: left;
-	width: 300px;
-	height: 70px;
+	margin: 0 auto;
+	width: 60%;
+	height: inherit;
 	background-color: #f2fcfb;
     display: inline;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
     font-family: "Aileron Thin", "Arial";
-    margin-left: 200px;
-	margin-right: 200px;
+	text-align: center;
+}
+
+#menu_navegacion ul {
+	list-style-type: none;
+	align-items: center;
+	justify-content: center;
+}
+
+#menu_navegacion ul li {
+	display: inline;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .click-me1, .click-me2 {
@@ -56,43 +62,28 @@ header {
     text-decoration: none;
 	text-align: center;
     color: #000;
-    font-size: 30px;
-    padding-top: 18px;
-    padding-bottom: 17px;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 0 auto;
+    font-size: 1.5em;
+	padding: 0.75em;
+	display: inline;
 }
 
 .click-me1:hover, .click-me2:hover {
     background-color: #060a3f;
     color: #ffffff;
-}
-
-#menu_navegacion ul {
-	list-style-type: none;
-	align-items: center;
-}
-
-#menu_navegacion ul li {
-	display: inline;
-
+	padding: 0.75em;
 }
 
 /* ---------------------------------- */
 
 #contacto {
     float: right;
-    width: 128px;
-    height: 70px;
+    width: 20%;
+    height: inherit;
     background-color: #f2fcfb;
-    display: flex;
 }
 
 #contacto a {
-    float: right;
     background-color: #f2fcfb;
-    display: flex;
 }
 
 #contacto i {
@@ -101,11 +92,10 @@ header {
 
 #contacto a i {
     float: right;
-    width: 60px;
-    font-size: 64px;
+    width: inherit;
+    font-size: 3em;
     display: flex;
     align-items:center;
-    margin-left: 50px;
     padding: 7px;
     padding-right: 10px;
 }
@@ -121,23 +111,24 @@ header {
 /* Empieza la seccion de contenido */
 
 #contenido {
-	width: 1024px;
+	margin: 0 auto;
+	width: 80%;
 	height: auto;
 	background-color: #fcfaf9;
 }
 
-#habilidades {
-	width: 1024px;
-	height: 680px;
+#seccion_habilidades {
+	width: inherit;
+	height: 150%;
+	margin: 12% auto;
 	background-color: #fcfaf9;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 #contenedor_habilidades {
-    width: 1024px;
-    height: 500px;
+    width: 120%;
+    height: auto;
     background-color: #fcfaf9;
     display: flex;
     align-items: center;
@@ -146,31 +137,29 @@ header {
 
 #primera_hab, #segunda_hab, #tercera_hab {
     float: left;
-    height: 497px;
-    width: 328px;
+    height: 120%;
+    width: 20em;
     background-color: #f9f9f9;
-    margin: 5px;
+    margin: 0.2em;
     border: 1px solid #fcfaf9;
-    display: block;
     align-items: center;
     justify-content: center;
-    z-index: 99;
+	text-align: center;
 	-webkit-box-shadow: 0 8px 6px -4px black;
     -moz-box-shadow: 0 8px 6px -4px black;
     box-shadow: 0 8px 6px -4px black;
 }
 
 #primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
-    text-align: center;
-    font-size: 32px;
+    font-size: 1.5em;
     font-family: 'Unlock', cursive, "Arial";
 }
 
 #primera_hab p, #segunda_hab p, #tercera_hab p {
     text-align: center;
     justify-content: center;
-    padding: 10px;
-    font-size: 20px;
+    padding: 0.5em;
+    font-size: 1.2em;
     font-family: 'PT Sans Narrow', sans-serif, "Arial";
 }
 
@@ -179,7 +168,8 @@ header {
 /* Divider */
 
 hr {
-	width: 1004px;
+	width: 95%;
+	margin: 0.1em auto;
     height: 0px;
     display: block;
     border-top: 2px solid #8c8b8b;
@@ -194,7 +184,7 @@ hr:after {
 	padding: 0 10px;
 	background: #fcfaf9;
 	color: #8c8b8b;
-	font-size: 16px;
+	font-size: 0.9em;
 }
 
 /* ---------------------------------- */
@@ -202,33 +192,29 @@ hr:after {
 /* Termina el divider */
 
 #relatos {
-	width: 1024px;
-	height: 757px;
+	width: 100%;
+	height: auto;
+	margin: 5% auto;
 	background-color: #f9f8f7;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	justify-content: center;
 }
 
 #contenedor_relatos {
-    width: 1024px;
-    height: 700px;
+    width: 98%;
+    height: auto;
     background-color: #f9f8f7;
-    display: block;
-    align-items: center;
-    justify-content: center;
+	justify-content: center;
 	margin: 0 auto;
 }
 
 #relato1, #relato2, #relato3,
 #relato4, #relato5, #relato6 {
 	float: left;
-	width: 315px;
-	height: 330px;
+	width: 30%;
+	height: 18em;
 	background-color: #ffffff;
-	text-align: center;
-    margin: 10px;
-    align-content: center;
+	margin: 0.5em;
     border-width: 2px;
 	border-style: solid;
 	border-image:
@@ -282,7 +268,7 @@ blockquote:after {
 
 blockquote p {
     font-family: 'Cantarell', sans-serif;
-	font-size: 14px;
+	font-size: 0.79em;
 	font-size-adjust: auto;
 }
 
@@ -292,39 +278,33 @@ blockquote p {
 /* Empieza la seccion de footer */
 
 footer {
-	width: 1024px;
-	height: 70px;
+	width: 100%;
+	height: 4em;
 	background-color: #f2fcfb;
 }
 
 #caja_footer {
-	width: 1024px;;
-	height: 70px;
+	width: inherit;
+	height: inherit;
 	background-color: #f2fcfb;
 }
 
 #licencia {
 	float: left;
-	width: 300px;
-	height: 70px;
+	width: 10%;
+	height: inherit;
 	background-color: #f2fcfb;
-    display: inline-block;
+    display: flex;
+	margin: 0 auto;
 }
 
 #licencia i {
-	width: 230px;
+	float: left;
+	width: inherit;
 	background-color: #f2fcfb;
-	font-size: 24px;
-	float: right;
-	margin-right: 35px;
-	margin-top: 20px;
-	padding-left: 5px;
-}
-
-.nav-text {
-    vertical-align: middle;
-    font-size: 16px;
-    margin-left: 10px;
+	font-size: 1em;
+	margin: 0 auto;
+	vertical-align: middle;
 }
 
 /* ---------------------------------- */
