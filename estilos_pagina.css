@@ -1,12 +1,11 @@
 
 body {
 	margin: 0 auto;
-	/* background-image: url(./fondogeometria.png);
+	background-image: url(./fondogeometria.png);
 	/* source:
-		https://wallpapersden.com/abstract-wallpapers/mesh-triangles-surface-320.html?resolution=1080x1920
+		https://wallpapersden.com/abstract-wallpapers/mesh-triangles-surface-320.html?resolution=1080x1920 */
 	background-size: cover;
-	background-repeat: no-repeat; */
-	background-color: #000000;
+	background-repeat: no-repeat;
 }
 
 header {
@@ -291,40 +290,62 @@ footer {
 
 #licencia {
 	float: left;
-	width: 10%;
+	width: 20%;
 	height: inherit;
 	background-color: #f2fcfb;
     display: flex;
-	margin: 0 auto;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+#licencia p {
+	margin: 5% auto;
 }
 
 #licencia i {
-	float: left;
-	width: inherit;
 	background-color: #f2fcfb;
 	font-size: 1em;
 	margin: 0 auto;
-	vertical-align: middle;
+	padding: 0.8em;
 }
+
+/* ---------------------------------- */
+
+#codigo_github {
+	float: left;
+	width: 60%;
+	display: flex;
+	height: inherit;
+	margin;
+	align-items: center;
+	justify-content: center;
+}
+
+#codigo_github i {
+	font-size: 2.5em;
+	cursor: pointer;
+	color: #8309b7;
+}
+
 
 /* ---------------------------------- */
 
 #logos_redes {
 	float: right;
-	width: 200px;
-	height: 70px;
+	width: 15%;
+	height: inherit;
 	background-color: #f2fcfb;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #logos_redes i {
-    float: left;
-    font-size: 32px;
-    margin-right: 10px;
+    float: right;
+    font-size: 2em;
     color: #8e241c;
+	margin: 1% auto;
 }
 
 #logos_redes i:hover {
