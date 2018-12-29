@@ -8,102 +8,307 @@ body {
 	background-repeat: no-repeat;
 }
 
-header {
-	background-color: #f2fcfb;
-	margin: 0 auto;
-	width: 100%;
-	height: 4em;
+/* Large-sized screens */
+@media all and (min-width: 1000px) {
+
+	header {
+		background-color: #f2fcfb;
+		margin: 0 auto;
+		width: 100%;
+		height: 4em;
+	}
+
+	#marca_personal {
+		float: left;
+		height: inherit;
+		width: 15%;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	/* ---------------------------------- */
+
+	#menu_navegacion {
+		float: left;
+		margin: 0 auto;
+		width: 60%;
+		height: inherit;
+		background-color: #f2fcfb;
+	    display: inline;
+	    font-family: "Aileron Thin", "Arial";
+		text-align: center;
+	}
+
+	#menu_navegacion ul {
+		list-style-type: none;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#menu_navegacion ul li {
+		display: inline;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.click-me1, .click-me2 {
+	    -moz-appearance: button;
+	    -ms-appearance: button;
+	    -o-appearance: button;
+	    -webkit-appearance: button;
+	    appearance: button;
+	    background-color: #f2fcfb;
+	    text-decoration: none;
+		text-align: center;
+	    color: #000;
+	    font-size: 1.5em;
+		padding: 0.75em;
+		display: inline;
+	}
+
+	.click-me1:hover, .click-me2:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+		padding: 0.75em;
+	}
+
+	/* ---------------------------------- */
+
+	#contacto {
+	    float: right;
+	    width: 20%;
+	    height: inherit;
+	    background-color: #f2fcfb;
+	}
+
+	#contacto a {
+	    background-color: #f2fcfb;
+	}
+
+	#contacto i {
+	    color: #8e241c;
+	}
+
+	#contacto a i {
+	    float: right;
+	    width: inherit;
+	    font-size: 3em;
+	    display: flex;
+	    align-items:center;
+	    padding: 7px;
+	    padding-right: 10px;
+	}
+
+	#contacto a i:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+	}
 }
 
-#marca_personal {
-	float: left;
-	height: inherit;
-	width: 15%;
-	background-color: #f2fcfb;
-    font-family: "Aileron Thin", "Arial";
-	font-size: 1.5em;
-	text-align: center;
+/* Medium-sized screens */
+@media all and (min-width: 720px) and (max-width: 999px) {
+
+	header {
+		background-color: #f2fcfb;
+		margin: 0 auto;
+		width: 100%;
+		height: 4em;
+	}
+
+	#marca_personal {
+		float: left;
+		height: inherit;
+		width: 20%;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	/* ---------------------------------- */
+
+	#menu_navegacion {
+		float: left;
+		margin: 0 auto;
+		width: 50%;
+		height: inherit;
+		background-color: #f2fcfb;
+	    display: inline;
+	    font-family: "Aileron Thin", "Arial";
+		text-align: center;
+	}
+
+	#menu_navegacion ul {
+		list-style-type: none;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#menu_navegacion ul li {
+		display: inline;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.click-me1, .click-me2 {
+	    -moz-appearance: button;
+	    -ms-appearance: button;
+	    -o-appearance: button;
+	    -webkit-appearance: button;
+	    appearance: button;
+	    background-color: #f2fcfb;
+	    text-decoration: none;
+		text-align: center;
+	    color: #000;
+	    font-size: 1.5em;
+		padding: 0.75em;
+		display: inline;
+	}
+
+	.click-me1:hover, .click-me2:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+		padding: 0.75em;
+	}
+
+	/* ---------------------------------- */
+
+	#contacto {
+	    float: right;
+	    width: 20%;
+	    height: inherit;
+	    background-color: #f2fcfb;
+	}
+
+	#contacto a {
+	    background-color: #f2fcfb;
+	}
+
+	#contacto i {
+	    color: #8e241c;
+	}
+
+	#contacto a i {
+	    float: right;
+	    width: inherit;
+	    font-size: 3em;
+	    display: flex;
+	    align-items:center;
+	    padding: 7px;
+	    padding-right: 10px;
+	}
+
+	#contacto a i:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+	}
 }
 
-/* ---------------------------------- */
+@media all and (min-width: 300px) and (max-width: 719px) {
 
-#menu_navegacion {
-	float: left;
-	margin: 0 auto;
-	width: 60%;
-	height: inherit;
-	background-color: #f2fcfb;
-    display: inline;
-    font-family: "Aileron Thin", "Arial";
-	text-align: center;
+	header {
+		background-color: #f2fcfb;
+		margin: 0 auto;
+		width: 100%;
+		height: 2.5em;
+	}
+
+	#marca_personal {
+		float: left;
+		height: inherit;
+		width: 25%;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+		font-size: 0.8em;
+		text-align: center;
+		margin: 1% auto;
+	}
+
+	/* ---------------------------------- */
+
+	#menu_navegacion {
+		float: left;
+		margin: 1% auto;
+		width: 55%;
+		height: inherit;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+	}
+
+	#menu_navegacion ul {
+		list-style-type: none;
+		text-align: center;
+		align-items: center;
+		margin: 1% auto;
+		height: 100%;
+		padding: 0;
+	}
+
+	#menu_navegacion ul li {
+		display: inline;
+		text-align: center;
+		width: 20%;
+		height: 20%;
+		margin: 1% auto;
+		justify-content: center;
+	}
+
+	.click-me1, .click-me2 {
+	    -moz-appearance: button;
+	    -ms-appearance: button;
+	    -o-appearance: button;
+	    -webkit-appearance: button;
+	    appearance: button;
+	    background-color: #f2fcfb;
+	    text-decoration: none;
+	    color: #000;
+	    font-size: 0.8em;
+		margin: 0 auto;
+		justify-content: center;
+	}
+
+	.click-me1:hover, .click-me2:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+	}
+
+	/* ---------------------------------- */
+
+	#contacto {
+	    float: right;
+		height: inherit;
+	    width: 20%;
+	    background-color: #f2fcfb;
+	}
+
+	#contacto a {
+	    background-color: #f2fcfb;
+	}
+
+	#contacto i {
+	    color: #8e241c;
+	}
+
+	#contacto a i {
+	    float: right;
+	    width: inherit;
+		height: inherit;
+	    font-size: 1.3em;
+	    display: flex;
+	    align-items:center;
+	    padding: 7px;
+	    padding-right: 10px;
+	}
+
+	#contacto a i:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+	}
 }
-
-#menu_navegacion ul {
-	list-style-type: none;
-	align-items: center;
-	justify-content: center;
-}
-
-#menu_navegacion ul li {
-	display: inline;
-	justify-content: center;
-	align-items: center;
-
-}
-
-.click-me1, .click-me2 {
-    -moz-appearance: button;
-    -ms-appearance: button;
-    -o-appearance: button;
-    -webkit-appearance: button;
-    appearance: button;
-    background-color: #f2fcfb;
-    text-decoration: none;
-	text-align: center;
-    color: #000;
-    font-size: 1.5em;
-	padding: 0.75em;
-	display: inline;
-}
-
-.click-me1:hover, .click-me2:hover {
-    background-color: #060a3f;
-    color: #ffffff;
-	padding: 0.75em;
-}
-
-/* ---------------------------------- */
-
-#contacto {
-    float: right;
-    width: 20%;
-    height: inherit;
-    background-color: #f2fcfb;
-}
-
-#contacto a {
-    background-color: #f2fcfb;
-}
-
-#contacto i {
-    color: #8e241c;
-}
-
-#contacto a i {
-    float: right;
-    width: inherit;
-    font-size: 3em;
-    display: flex;
-    align-items:center;
-    padding: 7px;
-    padding-right: 10px;
-}
-
-#contacto a i:hover {
-    background-color: #060a3f;
-    color: #ffffff;
-}
-
 /* ---------------------------------- */
 
 /* Termina el header */
@@ -116,50 +321,144 @@ header {
 	background-color: #fcfaf9;
 }
 
-#seccion_habilidades {
-	width: inherit;
-	height: 150%;
-	margin: 12% auto;
-	background-color: #fcfaf9;
-    display: flex;
-    justify-content: center;
+/* Separacion de pantallas medianas y grandes
+	para una mejor visualizacion del contenido */
+
+@media all and (min-width: 1000px) {
+
+	#seccion_habilidades {
+		width: inherit;
+		height: 150%;
+		margin: 12% auto;
+		background-color: #fcfaf9;
+	    display: flex;
+	    justify-content: center;
+	}
+
+	#contenedor_habilidades {
+	    width: 120%;
+	    height: auto;
+	    background-color: #fcfaf9;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	#primera_hab, #segunda_hab, #tercera_hab {
+	    float: left;
+	    height: 120%;
+	    width: 20em;
+	    background-color: #f9f9f9;
+	    margin: 0.2em;
+	    border: 1px solid #fcfaf9;
+	    align-items: center;
+	    justify-content: center;
+		text-align: center;
+		-webkit-box-shadow: 0 8px 6px -4px black;
+	    -moz-box-shadow: 0 8px 6px -4px black;
+	    box-shadow: 0 8px 6px -4px black;
+	}
+
+	#primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
+	    font-size: 1.5em;
+	    font-family: 'Unlock', cursive, "Arial";
+	}
+
+	#primera_hab p, #segunda_hab p, #tercera_hab p {
+	    text-align: center;
+	    justify-content: center;
+	    padding: 0.5em;
+	    font-size: 1.2em;
+	    font-family: 'PT Sans Narrow', sans-serif, "Arial";
+	}
 }
 
-#contenedor_habilidades {
-    width: 120%;
-    height: auto;
-    background-color: #fcfaf9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media all and (min-width: 700px) and (max-width: 999px) {
+
+	#seccion_habilidades {
+		width: 90%;
+		height: 150%;
+		margin: 1% auto;
+		background-color: #fcfaf9;
+	    display: flex;
+	}
+
+	#contenedor_habilidades {
+		width: auto;
+		height: auto;
+		display: block;
+		background-color: #fcfaf9;
+		margin: 1%;
+	}
+
+	#primera_hab, #segunda_hab, #tercera_hab {
+	    height: auto;
+	    width: auto;
+	    background-color: #f9f9f9;
+	    margin: 5% auto;
+	    border: 1px solid #fcfaf9;
+		text-align: center;
+		-webkit-box-shadow: 0 8px 6px -4px black;
+	    -moz-box-shadow: 0 8px 6px -4px black;
+	    box-shadow: 0 8px 6px -4px black;
+	}
+
+	#primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
+	    font-size: 1.5em;
+	    font-family: 'Unlock', cursive, "Arial";
+	}
+
+	#primera_hab p, #segunda_hab p, #tercera_hab p {
+	    text-align: center;
+	    justify-content: center;
+	    padding: 0.5em;
+	    font-size: 1.2em;
+	    font-family: 'PT Sans Narrow', sans-serif, "Arial";
+	}
 }
 
-#primera_hab, #segunda_hab, #tercera_hab {
-    float: left;
-    height: 120%;
-    width: 20em;
-    background-color: #f9f9f9;
-    margin: 0.2em;
-    border: 1px solid #fcfaf9;
-    align-items: center;
-    justify-content: center;
-	text-align: center;
-	-webkit-box-shadow: 0 8px 6px -4px black;
-    -moz-box-shadow: 0 8px 6px -4px black;
-    box-shadow: 0 8px 6px -4px black;
-}
+@media all and (min-width: 300px) and (max-width: 719px) {
 
-#primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
-    font-size: 1.5em;
-    font-family: 'Unlock', cursive, "Arial";
-}
+	#seccion_habilidades {
+		width: 90%;
+		height: 150%;
+		margin: 1% auto;
+		background-color: #fcfaf9;
+	    display: flex;
+	}
 
-#primera_hab p, #segunda_hab p, #tercera_hab p {
-    text-align: center;
-    justify-content: center;
-    padding: 0.5em;
-    font-size: 1.2em;
-    font-family: 'PT Sans Narrow', sans-serif, "Arial";
+	#contenedor_habilidades {
+		width: auto;
+		height: auto;
+		display: block;
+		background-color: #fcfaf9;
+		margin: 1%;
+	}
+
+	#primera_hab, #segunda_hab, #tercera_hab {
+	    height: auto;
+	    width: auto;
+	    background-color: #f9f9f9;
+	    margin: 5% auto;
+	    border: 1px solid #fcfaf9;
+		text-align: center;
+		-webkit-box-shadow: 0 8px 6px -4px black;
+	    -moz-box-shadow: 0 8px 6px -4px black;
+	    box-shadow: 0 8px 6px -4px black;
+	}
+
+	#primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
+	    font-size: 1.5em;
+	    font-family: 'Unlock', cursive, "Arial";
+	}
+
+	#primera_hab p, #segunda_hab p, #tercera_hab p {
+	    text-align: center;
+	    justify-content: center;
+	    padding: 0.5em;
+	    font-size: 1.2em;
+	    font-family: 'PT Sans Narrow', sans-serif, "Arial";
+	}
 }
 
 /* ---------------------------------- */
@@ -300,7 +599,7 @@ footer {
 }
 
 #licencia p {
-	margin: 5% auto;
+	margin: 5%;
 }
 
 #licencia i {
@@ -324,8 +623,12 @@ footer {
 
 #codigo_github i {
 	font-size: 2.5em;
+	color: #b21d03;
+}
+
+#codigo_github i:hover {
 	cursor: pointer;
-	color: #8309b7;
+	color: #060a3f;
 }
 
 
@@ -344,8 +647,8 @@ footer {
 #logos_redes i {
     float: right;
     font-size: 2em;
-    color: #8e241c;
-	margin: 1% auto;
+    color: #b21d03;
+	margin: 0.2% auto;
 }
 
 #logos_redes i:hover {
