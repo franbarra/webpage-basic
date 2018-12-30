@@ -1,3 +1,13 @@
+@media all and (min-width: 300px) and (max-width: 719px) {
+	body {
+		margin: 0 auto;
+		background-image: url(./fondogeometria.png);
+		/* source:
+			https://wallpapersden.com/abstract-wallpapers/mesh-triangles-surface-320.html?resolution=1080x1920 */
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
 
 body {
 	margin: 0 auto;
@@ -232,7 +242,7 @@ body {
 
 	#menu_navegacion {
 		float: left;
-		margin: 1% auto;
+		margin: 0 auto;
 		width: 55%;
 		height: inherit;
 		background-color: #f2fcfb;
@@ -241,20 +251,14 @@ body {
 
 	#menu_navegacion ul {
 		list-style-type: none;
-		text-align: center;
-		align-items: center;
-		margin: 1% auto;
-		height: 100%;
+		margin: 0 auto;
 		padding: 0;
+		text-align: center;
 	}
 
 	#menu_navegacion ul li {
-		display: inline;
-		text-align: center;
-		width: 20%;
-		height: 20%;
-		margin: 1% auto;
-		justify-content: center;
+		list-style: none;
+		margin: 0 auto;
 	}
 
 	.click-me1, .click-me2 {
@@ -267,8 +271,10 @@ body {
 	    text-decoration: none;
 	    color: #000;
 	    font-size: 0.8em;
+		padding: 1%;
+		display: flex;
+		text-indent: 30%;
 		margin: 0 auto;
-		justify-content: center;
 	}
 
 	.click-me1:hover, .click-me2:hover {
@@ -297,11 +303,10 @@ body {
 	    float: right;
 	    width: inherit;
 		height: inherit;
-	    font-size: 1.3em;
+	    font-size: 1.8em;
 	    display: flex;
 	    align-items:center;
-	    padding: 7px;
-	    padding-right: 10px;
+		padding: 12%;
 	}
 
 	#contacto a i:hover {
@@ -314,15 +319,39 @@ body {
 /* Termina el header */
 /* Empieza la seccion de contenido */
 
-#contenido {
-	margin: 0 auto;
-	width: 80%;
-	height: auto;
-	background-color: #fcfaf9;
+@@media all and (min-width: 1000px) {
+
+	#contenido {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		background-color: #fcfaf9;
+	}
 }
+
+@media all and (min-width: 720px) and (max-width: 999px) {
+
+	#contenido {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		background-color: #fcfaf9;
+	}
+}
+@media all and (min-width: 300px) and (max-width: 719px) {
+
+	#contenido {
+		margin: 0 auto;
+		width: 90%;
+		height: auto;
+		background-color: #fcfaf9;
+	}
+}
+
 
 /* Separacion de pantallas medianas y grandes
 	para una mejor visualizacion del contenido */
+
 
 @media all and (min-width: 1000px) {
 
@@ -442,9 +471,9 @@ body {
 	    margin: 5% auto;
 	    border: 1px solid #fcfaf9;
 		text-align: center;
-		-webkit-box-shadow: 0 8px 6px -4px black;
-	    -moz-box-shadow: 0 8px 6px -4px black;
-	    box-shadow: 0 8px 6px -4px black;
+		-webkit-box-shadow: 0 4px 3px -2px black;
+	    -moz-box-shadow: 0 4px 3px -2px black;
+	    box-shadow: 0 4px 3px -2px black;
 	}
 
 	#primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
@@ -488,86 +517,233 @@ hr:after {
 /* ---------------------------------- */
 
 /* Termina el divider */
+/* Comienzan los relatos */
 
-#relatos {
-	width: 100%;
-	height: auto;
-	margin: 5% auto;
-	background-color: #f9f8f7;
-	display: flex;
-	justify-content: center;
+@media all and (min-width: 1000px) {
+
+	#relatos {
+		width: 100%;
+		height: auto;
+		margin: 5% auto;
+		background-color: #f9f8f7;
+		display: flex;
+		justify-content: center;
+	}
+
+	#contenedor_relatos {
+	    width: 98%;
+	    height: auto;
+	    background-color: #f9f8f7;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 {
+		float: left;
+		width: 30%;
+		height: 18em;
+		background-color: #ffffff;
+		margin: 0.5em;
+	    border-width: 2px;
+		border-style: solid;
+		border-image:
+			-moz-linear-gradient(to bottom right, #db4e30, #bd25b7) 1;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 p {
+	    text-align: center;
+	    justify-content: center;
+	}
+
+	#relato1:hover, #relato2:hover, #relato3:hover,
+	#relato4:hover, #relato5:hover, #relato6:hover {
+	   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
+	blockquote {
+	  display: block;
+	  border-width: 2px 0;
+	  border-style: solid;
+	  border-color: #eee;
+	  padding: 1.5em 0.5em 0.5em;
+	  margin: 1.5em 0;
+	  position: relative;
+	    font-size: 18px;
+	}
+
+	blockquote:before {
+	  content: '\201C';
+	  position: absolute;
+	  top: 0em;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  background: #fff;
+	  width: 3rem;
+	  height: 2rem;
+	  font: 6em/1.08em 'PT Sans', sans-serif;
+	  color: #666;
+	    text-align: center;
+	}
+
+	blockquote:after {
+	  content: "\2013 \2003" attr(cite);
+	  display: block;
+	  color: #e74c3c;
+	  font-size: 0.675em;
+	  text-align: right;
+	}
+
+	blockquote p {
+	    font-family: 'Cantarell', sans-serif;
+		font-size: 0.79em;
+		font-size-adjust: auto;
+	}
 }
 
-#contenedor_relatos {
-    width: 98%;
-    height: auto;
-    background-color: #f9f8f7;
-	justify-content: center;
-	margin: 0 auto;
+@media all and (min-width: 720px) and (max-width: 999px) {
+
+	#relatos {
+		width: 100%;
+		height: auto;
+		margin: 2% auto;
+		background-color: #f9f8f7;
+		display: flex;
+		justify-content: center;
+	}
+
+	#contenedor_relatos {
+	    width: 100%;
+	    height: auto;
+	    background-color: #f9f8f7;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 {
+		float: left;
+		width: 45%;
+		height: 18em;
+		background-color: #ffffff;
+		margin: 0.6em;
+	    border-width: 2px;
+		display: flex;
+		border-style: solid;
+		border-image:
+			-moz-linear-gradient(to bottom right, #db4e30, #bd25b7) 1;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 p {
+	    text-align: center;
+	    justify-content: center;
+	}
+
+	#relato1:hover, #relato2:hover, #relato3:hover,
+	#relato4:hover, #relato5:hover, #relato6:hover {
+	   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
+	blockquote {
+	  display: block;
+	  border-width: 2px 0;
+	  border-style: solid;
+	  border-color: #eee;
+	  padding: 1.5em 0.5em 0.5em;
+	  margin: 1.5em 0;
+	  position: relative;
+	    font-size: 17px;
+	}
+
+	blockquote:before {
+	  content: '\201C';
+	  position: absolute;
+	  top: 0em;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  background: #fff;
+	  width: 3rem;
+	  height: 2rem;
+	  font: 6em/1.08em 'PT Sans', sans-serif;
+	  color: #666;
+	    text-align: center;
+	}
+
+	blockquote:after {
+	  content: "\2013 \2003" attr(cite);
+	  display: block;
+	  color: #e74c3c;
+	  font-size: 0.675em;
+	  text-align: right;
+	}
+
+	blockquote p {
+	    font-family: 'Cantarell', sans-serif;
+		font-size: 0.79em;
+	}
 }
 
-#relato1, #relato2, #relato3,
-#relato4, #relato5, #relato6 {
-	float: left;
-	width: 30%;
-	height: 18em;
-	background-color: #ffffff;
-	margin: 0.5em;
-    border-width: 2px;
-	border-style: solid;
-	border-image:
-		-moz-linear-gradient(to bottom right, #db4e30, #bd25b7) 1;
-}
+@media all (min-width: 300px) and (max-width: 719px) {
 
-#relato1, #relato2, #relato3,
-#relato4, #relato5, #relato6 p {
-    text-align: center;
-    justify-content: center;
-}
+	#relatos {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		background-color: #f9f8f7;
+		display: flex;
+		justify-content: center;
+	}
 
-#relato1:hover, #relato2:hover, #relato3:hover,
-#relato4:hover, #relato5:hover, #relato6:hover {
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+	#contenedor_relatos {
+	    width: 90%;
+	    height: auto;
+	    background-color: #f9f8f7;
+		justify-content: center;
+		margin: 0 auto;
+		display: flex;
+	}
 
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 {
+		width: 80%;
+		height: 20em;
+		background-color: #ffffff;
+		margin: 0;
+	    border-width: 1px;
+		display: block;
+		border-style: solid;
+		border-image:
+			-moz-linear-gradient(to bottom right, #db4e30, #bd25b7) 0.5;
+	}
 
-blockquote {
-  display: block;
-  border-width: 2px 0;
-  border-style: solid;
-  border-color: #eee;
-  padding: 1.5em 0.5em 0.5em;
-  margin: 1.5em 0;
-  position: relative;
-    font-size: 18px;
-}
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 p {
+	    text-align: center;
+	    justify-content: center;
+	}
 
-blockquote:before {
-  content: '\201C';
-  position: absolute;
-  top: 0em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  width: 3rem;
-  height: 2rem;
-  font: 6em/1.08em 'PT Sans', sans-serif;
-  color: #666;
-    text-align: center;
-}
+	#relato1:hover, #relato2:hover, #relato3:hover,
+	#relato4:hover, #relato5:hover, #relato6:hover {
+	   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+	}
 
-blockquote:after {
-  content: "\2013 \2003" attr(cite);
-  display: block;
-  color: #e74c3c;
-  font-size: 0.675em;
-  text-align: right;
-}
+	blockquote {
+	  display: block;
+	  border-width: 2px 0;
+	  border-style: solid;
+	  border-color: #eee;
+	  padding: 0;
+	  margin: 0 auto;
+	  position: relative;
+	    font-size: 8px;
+	}
 
-blockquote p {
-    font-family: 'Cantarell', sans-serif;
-	font-size: 0.79em;
-	font-size-adjust: auto;
+	blockquote p {
+	    font-family: 'Cantarell', sans-serif;
+		font-size: 0.2em;
+	}
 }
 
 /* ---------------------------------- */
