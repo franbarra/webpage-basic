@@ -1,0 +1,1031 @@
+
+@media all and (min-width: 300px) {
+
+	body {
+		margin: 0 auto;
+		background-image: url(./fondogeometria.png);
+		/* source:
+			https://wallpapersden.com/abstract-wallpapers/mesh-triangles-surface-320.html?resolution=1080x1920 */
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+/* Large-sized screens */
+
+@media all and (min-width: 1000px) {
+
+	#caja_header {
+		background-color: #f2fcfb;
+		margin: 0 auto;
+		display: flex;
+		width: 100%;
+		height: 4em;
+		justify-content: center;
+	}
+
+	#marca_personal {
+		height: inherit;
+		width: 15%;
+		margin: auto;
+		flex-grow: 1;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	/* ---------------------------------- */
+
+	#menu_navegacion {
+		margin: auto;
+		width: 70%;
+		height: inherit;
+		flex-grow: 2;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+		text-align: center;
+	}
+
+	#menu_navegacion ul {
+		list-style-type: none;
+	}
+
+	#menu_navegacion ul li {
+		display: inline;
+	}
+
+	.click-me1, .click-me2 {
+	    -moz-appearance: button;
+	    -ms-appearance: button;
+	    -o-appearance: button;
+	    -webkit-appearance: button;
+	    appearance: button;
+	    background-color: #f2fcfb;
+	    text-decoration: none;
+		text-align: center;
+	    color: #000;
+	    font-size: 1.5em;
+		padding: 0.75em;
+	}
+
+	.click-me1:hover, .click-me2:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+		padding: 0.75em;
+	}
+
+	/* ---------------------------------- */
+
+	#contacto {
+	    float: right;
+	    width: 15%;
+	    height: inherit;
+		background-color: #f2fcfb;
+		flex-grow: 1;
+		margin: auto;
+	}
+
+	#contacto a {
+	    background-color: #f2fcfb;
+	}
+
+	#contacto i {
+	    color: #8e241c;
+	}
+
+	#contacto a i {
+	    float: right;
+	    width: inherit;
+	    font-size: 3em;
+		align-items:center;
+		padding: 0.175em;
+	}
+
+	#contacto a i:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+/* Medium-sized screens */
+
+@media all and (min-width: 720px) and (max-width: 999px) {
+
+	#caja_header {
+		background-color: #f2fcfb;
+		margin: 0 auto;
+		width: 100%;
+		height: 3em;
+		display: flex;
+		justify-content: center;
+	}
+
+	#marca_personal {
+		height: inherit;
+		width: 15%;
+		flex-grow: 1;
+		margin: auto;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+		font-size: 1.075em;
+		text-align: center;
+	}
+
+	/* ---------------------------------- */
+
+	#menu_navegacion {
+		margin: auto;
+		width: 70%;
+		height: inherit;
+		flex-grow: 2;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+		text-align: center;
+	}
+
+	#menu_navegacion ul {
+		list-style-type: none;
+		width: 100%;
+		height: inherit;
+		padding: 0;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+	}
+
+	#menu_navegacion ul li {
+		display: inline-flex;
+	}
+
+	.click-me1, .click-me2 {
+	    -moz-appearance: button;
+	    -ms-appearance: button;
+	    -o-appearance: button;
+	    -webkit-appearance: button;
+	    appearance: button;
+	    background-color: #f2fcfb;
+	    text-decoration: none;
+		text-align: center;
+		color: #000;
+	    font-size: 1.075rem;
+		padding: 0.7em;
+	}
+
+	.click-me1:hover, .click-me2:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+		padding: 0.7em;
+	}
+
+	/* ---------------------------------- */
+
+	#contacto {
+	    width: 15%;
+	    height: inherit;
+	    background-color: #f2fcfb;
+	}
+
+	#contacto a {
+	    background-color: #f2fcfb;
+	}
+
+	#contacto i {
+	    color: #8e241c;
+	}
+
+	#contacto a i {
+	    float: right;
+	    width: inherit;
+	    font-size: 2.075rem;
+	    padding: 8%;
+	}
+
+	#contacto a i:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 300px) and (max-width: 719px) {
+
+	#caja_header {
+		background-color: #f2fcfb;
+		margin: 0 auto;
+		width: 100%;
+		height: 2.5em;
+		display: flex;
+	}
+
+	#marca_personal {
+		height: 2.5em;
+		width: 25%;
+		flex-grow: 1;
+		background-color: #f2fcfb;
+	    font-family: "Aileron Thin", "Arial";
+		font-size: 0.9rem;
+		text-align: center;
+		display: flex;
+		margin: auto;
+	}
+
+	/* ---------------------------------- */
+
+	#menu_navegacion {
+		width: 55%;
+		flex-grow: 2;
+		height: inherit;
+		background-color: #f2fcfb;
+	    display: flex;
+	    font-family: "Aileron Thin", "Arial";
+		text-align: center;
+	}
+
+	#menu_navegacion ul {
+		list-style-type: none;
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	#menu_navegacion ul li {
+		display: inline-flex;
+		
+	}
+
+	.click-me1, .click-me2 {
+	    -moz-appearance: button;
+	    -ms-appearance: button;
+	    -o-appearance: button;
+	    -webkit-appearance: button;
+	    appearance: button;
+	    background-color: #f2fcfb;
+	    text-decoration: none;
+		justify-content: center;
+	    color: #000;
+	    font-size: 1em;
+		padding: 0.6em;
+		margin: 0 auto;
+	}
+
+	.click-me1:hover, .click-me2:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+		padding: 0.6em;
+	}
+
+	/* ---------------------------------- */
+
+	#contacto {
+		height: 2.5rem;
+		width: 20%;
+		flex-grow: 1;
+	    background-color: #f2fcfb;
+	}
+
+	#contacto a {
+	    background-color: #f2fcfb;
+	}
+
+	#contacto i {
+	    color: #8e241c;
+	}
+
+	#contacto a i {
+	    float: right;
+	    width: inherit;
+		height: inherit;
+		font-size: 2rem;
+		padding: 5%;
+	}
+
+	#contacto a i:hover {
+	    background-color: #060a3f;
+	    color: #ffffff;
+	}
+}
+/* ---------------------------------- */
+
+/* Termina el header */
+/* Empieza la seccion de contenido */
+
+@media all and (min-width: 1000px) {
+
+	#contenido {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		background-color: #fcfaf9;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 720px) and (max-width: 999px) {
+
+	#contenido {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		background-color: #fcfaf9;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 300px) and (max-width: 719px) {
+
+	#contenido {
+		margin: 0 auto;
+		width: 95%;
+		height: auto;
+		background-color: #fcfaf9;
+	}
+}
+
+
+/* Separacion de pantallas medianas y grandes
+	para una mejor visualizacion del contenido */
+
+
+@media all and (min-width: 1000px) {
+
+	#seccion_habilidades {
+		width: inherit;
+		height: 150%;
+		margin: 12% auto;
+		background-color: #fcfaf9;
+	    display: flex;
+	    justify-content: center;
+	}
+
+	#contenedor_habilidades {
+	    width: 120%;
+	    height: auto;
+	    background-color: #fcfaf9;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	#primera_hab, #segunda_hab, #tercera_hab {
+	    float: left;
+	    height: 120%;
+	    width: 20em;
+	    background-color: #f9f9f9;
+	    margin: 0.2em;
+	    border: 1px solid #fcfaf9;
+	    align-items: center;
+	    justify-content: center;
+		text-align: center;
+		-webkit-box-shadow: 0 8px 6px -4px black;
+	    -moz-box-shadow: 0 8px 6px -4px black;
+	    box-shadow: 0 8px 6px -4px black;
+	}
+
+	#primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
+	    font-size: 1.5em;
+	    font-family: 'Unlock', cursive, "Arial";
+	}
+
+	#primera_hab p, #segunda_hab p, #tercera_hab p {
+	    text-align: center;
+	    justify-content: center;
+	    padding: 0.5em;
+	    font-size: 1.2em;
+	    font-family: 'PT Sans Narrow', sans-serif, "Arial";
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 700px) and (max-width: 999px) {
+
+	#seccion_habilidades {
+		width: 90%;
+		height: 150%;
+		margin: 1% auto;
+		background-color: #fcfaf9;
+	    display: flex;
+	}
+
+	#contenedor_habilidades {
+		width: auto;
+		height: auto;
+		display: block;
+		background-color: #fcfaf9;
+		margin: 1%;
+	}
+
+	#primera_hab, #segunda_hab, #tercera_hab {
+	    height: auto;
+	    width: auto;
+	    background-color: #f9f9f9;
+	    margin: 5% auto;
+	    border: 1px solid #fcfaf9;
+		text-align: center;
+		-webkit-box-shadow: 0 8px 6px -4px black;
+	    -moz-box-shadow: 0 8px 6px -4px black;
+	    box-shadow: 0 8px 6px -4px black;
+	}
+
+	#primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
+	    font-size: 1.5em;
+	    font-family: 'Unlock', cursive, "Arial";
+	}
+
+	#primera_hab p, #segunda_hab p, #tercera_hab p {
+	    text-align: center;
+	    justify-content: center;
+	    padding: 0.5em;
+	    font-size: 1.2em;
+	    font-family: 'PT Sans Narrow', sans-serif, "Arial";
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 300px) and (max-width: 719px) {
+
+	#seccion_habilidades {
+		width: 90%;
+		height: 150%;
+		margin: 1% auto;
+		background-color: #fcfaf9;
+	    display: flex;
+	}
+
+	#contenedor_habilidades {
+		width: auto;
+		height: auto;
+		display: block;
+		background-color: #fcfaf9;
+		margin: 1%;
+	}
+
+	#primera_hab, #segunda_hab, #tercera_hab {
+	    height: auto;
+	    width: auto;
+	    background-color: #f9f9f9;
+	    margin: 5% auto;
+	    border: 1px solid #fcfaf9;
+		text-align: center;
+		-webkit-box-shadow: 0 4px 3px -2px black;
+	    -moz-box-shadow: 0 4px 3px -2px black;
+	    box-shadow: 0 4px 3px -2px black;
+	}
+
+	#primera_hab h3, #segunda_hab h3, #tercera_hab h3 {
+	    font-size: 1.5em;
+	    font-family: 'Unlock', cursive, "Arial";
+	}
+
+	#primera_hab p, #segunda_hab p, #tercera_hab p {
+	    text-align: center;
+	    justify-content: center;
+	    padding: 0.5em;
+	    font-size: 1.2em;
+	    font-family: 'PT Sans Narrow', sans-serif, "Arial";
+	}
+}
+
+/* ---------------------------------- */
+
+/* Divider */
+
+hr {
+	width: 95%;
+	margin: 0.1em auto;
+    height: 0px;
+    display: block;
+    border-top: 2px solid #8c8b8b;
+	text-align: center;
+}
+
+hr:after {
+    content: '§';
+	display: inline-block;
+	position: relative;
+	top: -10px;
+	padding: 0 10px;
+	background: #fcfaf9;
+	color: #8c8b8b;
+	font-size: 0.9em;
+}
+
+/* ---------------------------------- */
+
+/* Termina el divider */
+/* Comienzan los relatos */
+
+@media all and (min-width: 1000px) {
+
+	#relatos {
+		width: 96%;
+		height: auto;
+		margin: 3% auto;
+		background-color: #f9f8f7;
+		display: flex;
+		justify-content: center;
+	}
+
+	#contenedor_relatos {
+	    width: 100%;
+	    height: auto;
+		margin: auto;
+		display: grid;
+		justify-content: space-evenly;
+		grid-template-columns: 33% 33% 33%;
+		grid-template-rows: 50% 50%;
+		grid-gap: 10px;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 {
+		background-color: #ffffff;
+	    border-width: 2px;
+		border-style: solid;
+		border-image:
+			-moz-linear-gradient(to bottom right, #db4e30, #bd25b7) 1;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 p {
+	    text-align: center;
+	}
+
+	#relato1:hover, #relato2:hover, #relato3:hover,
+	#relato4:hover, #relato5:hover, #relato6:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
+	blockquote {
+		display: block;
+		border-width: 2px 0;
+		border-style: solid;
+		border-color: #eee;
+		padding: 1.5em 0.5em 0.5em;
+		margin: 1.5em 0;
+		position: relative;
+		font-size: 18px;
+	}
+
+	blockquote:before {
+		content: '\201C';
+		position: absolute;
+		top: 0em;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #fff;
+		width: 3rem;
+		height: 2rem;
+		font: 6em/1.08em 'PT Sans', sans-serif;
+		color: #666;
+		text-align: center;
+	}
+
+	blockquote:after {
+		content: "\2013 \2003" attr(cite);
+		display: block;
+		color: #e74c3c;
+		font-size: 0.675em;
+		text-align: right;
+	}
+
+	blockquote p {
+	    font-family: 'Cantarell', sans-serif;
+		font-size: 0.79em;
+		font-size-adjust: auto;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 720px) and (max-width: 999px) {
+
+	#relatos {
+		width: 96%;
+		height: auto;
+		margin: 3% auto;
+		background-color: #f9f8f7;
+		display: flex;
+		justify-content: center;
+	}
+
+	#contenedor_relatos {
+	    width: 100%;
+	    height: auto;
+		margin: auto;
+		display: grid;
+		justify-content: space-evenly;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 33% 33% 33%;
+		grid-gap: 5px;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 {
+		background-color: #ffffff;
+	    border-width: 2px;
+		border-style: solid;
+		border-image:
+			-moz-linear-gradient(to bottom right, #db4e30, #bd25b7) 1;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 p {
+	    text-align: center;
+	}
+
+	#relato1:hover, #relato2:hover, #relato3:hover,
+	#relato4:hover, #relato5:hover, #relato6:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+		
+	blockquote {
+		display: block;
+		border-width: 2px 0;
+		border-style: solid;
+		border-color: #eee;
+		padding: 1.5em 0.5em 0.5em;
+		margin: 1.5em 0;
+		position: relative;
+		font-size: 18px;
+	}
+
+	blockquote:before {
+		content: '\201C';
+		position: absolute;
+		top: 0em;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #fff;
+		width: 3rem;
+		height: 2rem;
+		font: 6em/1.08em 'PT Sans', sans-serif;
+		color: #666;
+		text-align: center;
+	}
+
+	blockquote:after {
+		content: "\2013 \2003" attr(cite);
+		display: block;
+		color: #e74c3c;
+		font-size: 0.675em;
+		text-align: right;
+	}
+
+	blockquote p {
+	    font-family: 'Cantarell', sans-serif;
+		font-size: 0.79em;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 300px) and (max-width: 719px) {
+
+	#relatos {
+		width: 100%;
+		height: auto;
+		margin: auto;
+		background-color: #f9f8f7;
+		display: flex;
+		justify-content: center;
+	}
+
+	#contenedor_relatos {
+		width: 100%;
+	    height: auto;
+		margin: 2% auto;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-gap: 10px;
+	}
+
+	#relato1, #relato2, #relato3,
+	#relato4, #relato5, #relato6 {
+		width: 90%;
+		height: auto;
+		background-color: #ffffff;
+		justify-self: center;
+	    border-width: 2px;
+		border-style: solid;
+		border-image:
+			-moz-linear-gradient(to bottom right, #db4e30, #bd25b7) 1;
+	}
+
+	blockquote {
+		display: block;
+		border-width: 2px 0;
+		border-style: solid;
+		border-color: #eee;
+		padding: 1.5em 0.5em 0.5em;
+		margin: 1.5em 0;
+		position: relative;
+		font-size: 18px;
+	}
+
+	blockquote:before {
+		content: '\201C';
+		position: absolute;
+		top: 0em;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #fff;
+		width: 3rem;
+		height: 2rem;
+		font: 6em/1.08em 'PT Sans', sans-serif;
+		color: #666;
+		text-align: center;
+	}
+
+	blockquote:after {
+		content: "\2013 \2003" attr(cite);
+		display: block;
+		color: #e74c3c;
+		font-size: 0.675em;
+		text-align: right;
+	}
+
+	blockquote p {
+	    font-family: 'Cantarell', sans-serif;
+		font-size: 0.79em;
+		text-align: center;
+	}
+}
+
+/* ---------------------------------- */
+
+/* Termina el contenido */
+/* Empieza la seccion de footer */
+
+@media all and (min-width: 1000px) {
+
+	footer {
+		width: 100%;
+		height: 3.5em;
+		background-color: #f2fcfb;
+	}
+
+	#caja_footer {
+		width: inherit;
+		height: inherit;
+		background-color: #f2fcfb;
+	}
+
+	#licencia {
+		float: left;
+		width: 20%;
+		height: inherit;
+		background-color: #f2fcfb;
+		display: flex;
+		flex-grow: 1;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#licencia p {
+		margin: 5%;
+		width: 30%;
+	}
+
+	#licencia i {
+		background-color: #f2fcfb;
+		font-size: 1em;
+		margin: 0 auto;
+		padding: 0.8em;
+	}
+
+	/* ---------------------------------- */
+
+	#codigo_github {
+		float: left;
+		width: 60%;
+		display: flex;
+		flex-grow: 2;
+		height: inherit;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#codigo_github i {
+		font-size: 2.5em;
+		color: #8e241c;
+	}
+
+	#codigo_github i:hover {
+		cursor: pointer;
+		color: #060a3f;
+	}
+
+	/* ---------------------------------- */
+
+	#logos_redes {
+		float: right;
+		width: 20%;
+		height: inherit;
+		background-color: #f2fcfb;
+		display: flex;	
+		flex-grow: 1;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#logos_redes i {
+	    float: right;
+	    font-size: 2em;
+	    color: #8e241c;
+		margin: 0.2% auto;
+	}
+
+	#logos_redes i:hover {
+	    color: #060a3f;
+	    border-radius: 50%;
+	    cursor: pointer;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 720px) and (max-width: 999px) {
+
+	footer {
+		width: 100%;
+		height: 3em;
+		background-color: #f2fcfb;
+	}
+
+	#caja_footer {
+		width: inherit;
+		height: inherit;
+		background-color: #f2fcfb;
+	}
+
+	#licencia {
+		float: left;
+		width: 30%;
+		height: inherit;
+		background-color: #f2fcfb;
+	    display: flex;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#licencia p {
+		margin: 3%;
+		width: 30%;
+	}
+
+	#licencia i {
+		background-color: #f2fcfb;
+		font-size: 1em;
+		margin: 0 auto;
+		padding: 0.5em;
+	}
+
+	/* ---------------------------------- */
+
+	#codigo_github {
+		float: left;
+		width: 40%;
+		display: flex;
+		height: inherit;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#codigo_github i {
+		font-size: 2.5em;
+		color: #8e241c;
+	}
+
+	#codigo_github i:hover {
+		cursor: pointer;
+		color: #060a3f;
+	}
+
+	/* ---------------------------------- */
+
+	#logos_redes {
+		float: right;
+		width: 30%;
+		height: inherit;
+		background-color: #f2fcfb;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	#logos_redes i {
+	    float: right;
+	    font-size: 2em;
+	    color: #8e241c;
+		margin: 4%;
+	}
+
+	#logos_redes i:hover {
+	    color: #060a3f;
+	    border-radius: 50%;
+	    cursor: pointer;
+	}
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media all and (min-width: 300px) and (max-width: 719px) {
+
+	footer {
+		width: 100%;
+		height: 2em;
+		background-color: #f2fcfb;
+	}
+
+	#caja_footer {
+		width: inherit;
+		height: inherit;
+		background-color: #f2fcfb;
+	}
+
+	#licencia {
+		float: left;
+		width: 35%;
+		height: inherit;
+		background-color: #f2fcfb;
+	    display: flex;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#licencia p {
+		margin: 3%;
+		width: 40%;
+		font-size: 12px;
+	}
+
+	#licencia i {
+		background-color: #f2fcfb;
+		font-size: 0.8em;
+		margin: 0 auto;
+		padding: 0.2em;
+	}
+
+	/* ---------------------------------- */
+
+	#codigo_github {
+		float: left;
+		width: 35%;
+		display: flex;
+		height: inherit;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#codigo_github i {
+		font-size: 1.5em;
+		color: #8e241c;
+	}
+
+	#codigo_github i:hover {
+		cursor: pointer;
+		color: #060a3f;
+	}
+
+	/* ---------------------------------- */
+
+	#logos_redes {
+		float: right;
+		width: 30%;
+		height: inherit;
+		background-color: #f2fcfb;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	#logos_redes i {
+	    float: right;
+	    font-size: 1em;
+	    color: #8e241c;
+		margin: 4%;
+	}
+
+	#logos_redes i:hover {
+	    color: #060a3f;
+	    border-radius: 50%;
+	    cursor: pointer;
+	}
+}
